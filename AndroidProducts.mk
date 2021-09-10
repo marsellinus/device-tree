@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stellar_mojito.mk
+    $(LOCAL_DIR)/superior_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    stellar_mojito-user \
-    stellar_mojito-userdebug \
-    stellar_mojito-eng
+    superior_mojito-user \
+    superior_mojito-userdebug \
+    superior_mojito-eng

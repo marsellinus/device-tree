@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stellar_mojito.mk
+    $(LOCAL_DIR)/banana_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    stellar_mojito-user \
-    stellar_mojito-userdebug \
-    stellar_mojito-eng
+    banana_mojito-user \
+    banana_mojito-userdebug \
+    banana_mojito-eng

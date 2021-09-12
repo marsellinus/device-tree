@@ -11,13 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common stellar stuff
+# Inherit some common banana stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/stellar/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := stellar_mojito
+PRODUCT_NAME := banana_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
